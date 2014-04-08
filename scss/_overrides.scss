@@ -1,0 +1,55 @@
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+$main-typeface: 'Open Sans', sans-serif;
+$secondary-typeface: 'Cantarell', sans-serif;
+
+
+h1, h2 {
+  font-family: $main-typeface;
+}
+
+p {
+  font-family: $secondary-typeface;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.profile-img {
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.about {
+  padding: 20px;
+}
+
+.about-heading {
+  text-align: center;
+}
+
+.social-profiles {
+  margin-top: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+
+// .style {
+//   color: #000; // You can change the color of the social links here //
+// }
